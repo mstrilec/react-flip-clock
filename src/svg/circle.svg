@@ -1,0 +1,36 @@
+<svg width="363" height="181" viewBox="0 0 363 181" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_114_1601)">
+<mask id="path-1-inside-1_114_1601" fill="white">
+<path d="M363 181.5C363 133.363 343.878 87.198 309.84 53.1601C275.802 19.1223 229.637 3.63423e-06 181.5 0C133.363 -3.63423e-06 87.198 19.1223 53.1601 53.1601C19.1223 87.198 7.26846e-06 133.363 0 181.5L181.5 181.5H363Z"/>
+</mask>
+<path d="M363 181.5C363 133.363 343.878 87.198 309.84 53.1601C275.802 19.1223 229.637 3.63423e-06 181.5 0C133.363 -3.63423e-06 87.198 19.1223 53.1601 53.1601C19.1223 87.198 7.26846e-06 133.363 0 181.5L181.5 181.5H363Z" fill="#111111" stroke="url(#paint0_linear_114_1601)" stroke-width="32" mask="url(#path-1-inside-1_114_1601)"/>
+<circle cx="181" cy="8" r="4" transform="rotate(180 181 8)" fill="#FAFAFA"/>
+<circle cx="303" cy="57" r="4" transform="rotate(180 303 57)" fill="#FAFAFA"/>
+<circle cx="279" cy="38" r="4" transform="rotate(180 279 38)" fill="#FAFAFA"/>
+<circle cx="83" cy="38" r="4" transform="rotate(180 83 38)" fill="#FAFAFA"/>
+<circle cx="338" cy="106" r="4" transform="rotate(180 338 106)" fill="#FAFAFA"/>
+<circle cx="24" cy="106" r="4" transform="rotate(180 24 106)" fill="#FAFAFA"/>
+<circle cx="39" cy="81" r="4" transform="rotate(180 39 81)" fill="#FAFAFA"/>
+<circle cx="323" cy="81" r="4" transform="rotate(180 323 81)" fill="#FAFAFA"/>
+<circle cx="15" cy="132" r="4" transform="rotate(180 15 132)" fill="#FAFAFA"/>
+<circle cx="348" cy="132" r="4" transform="rotate(180 348 132)" fill="#FAFAFA"/>
+<circle cx="111" cy="22" r="4" transform="rotate(180 111 22)" fill="#FAFAFA"/>
+<circle cx="252" cy="22" r="4" transform="rotate(180 252 22)" fill="#FAFAFA"/>
+<circle cx="219" cy="12" r="4" transform="rotate(180 219 12)" fill="#FAFAFA"/>
+<circle cx="143" cy="12" r="4" transform="rotate(180 143 12)" fill="#FAFAFA"/>
+<circle cx="60" cy="57" r="4" transform="rotate(180 60 57)" fill="#FAFAFA"/>
+<circle cx="9" cy="160" r="4" transform="rotate(180 9 160)" fill="#FAFAFA"/>
+<circle cx="354" cy="160" r="4" transform="rotate(180 354 160)" fill="#FAFAFA"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_114_1601" x1="-2.60681" y1="-175.132" x2="462.054" y2="-58.3499" gradientUnits="userSpaceOnUse">
+<stop stop-color="#BD0079"/>
+<stop offset="0.169144" stop-color="#E03B37"/>
+<stop offset="0.653592" stop-color="#F6600F"/>
+<stop offset="0.95" stop-color="#FF6F00"/>
+</linearGradient>
+<clipPath id="clip0_114_1601">
+<rect width="363" height="181" fill="white"/>
+</clipPath>
+</defs>
+</svg>

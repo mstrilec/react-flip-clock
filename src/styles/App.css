@@ -1,174 +1,218 @@
-@import url('https://fonts.googleapis.com/css2?family=Chau+Philomene+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Chau+Philomene+One&display=swap");
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
-  min-height: 100vh;
-  background-image: url('../images/background.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+	min-height: 100vh;
+	background-image: url("../images/background.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 
-  overflow-y: hidden;
+	overflow-y: hidden;
 
-  font-family: 'Chau Philomene One', sans-serif;
+	font-family: "Chau Philomene One", sans-serif;
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 .circle-container {
-  position: relative;
-  margin-top: 80px;
+	position: relative;
+	margin-top: 80px;
 }
 
 .circle {
-  position: relative;
+	position: relative;
 }
 
 .circle-active {
-  fill: #FAFAFA;
-  filter: drop-shadow(0 0 4px #FAFAFA);
+	fill: #fafafa;
+	filter: drop-shadow(0 0 4px #fafafa);
 }
 
 .logo {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 1000;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 1000;
 }
 
 .rectangle-container {
-  position: relative;
-  margin-bottom: 17px;
-  margin-top: -60px;
+	position: relative;
+	margin-bottom: 17px;
+	margin-top: -60px;
 }
 
 .rectangle {
-  position: relative;
+	position: relative;
 }
 
 .title {
-  position: absolute;
-  width: 450px;
-  bottom: 23%;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 1000;
-  color: rgba(255, 186, 123, 0.5);
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #FFA439;
+	position: absolute;
+	width: 450px;
+	bottom: 23%;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 1000;
+	color: rgba(255, 186, 123, 0.5);
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: #ffa439;
 
-  text-transform: uppercase;
-  line-height: 72px;
-  font-size: 72px;
-  text-align: center;
+	text-transform: uppercase;
+	line-height: 72px;
+	font-size: 72px;
+	text-align: center;
 
-  text-shadow: 0 0 40px rgba(255, 164, 57, 0.8);
+	text-shadow: 0 0 40px rgba(255, 164, 57, 0.8);
 }
 
 .dot {
-  position: absolute;
+	position: absolute;
 }
 
 .first-dot {
-  top: 33%;
-  left: 8%;
+	top: 33%;
+	left: 8%;
 }
 
 .second-dot {
-  top: 33%;
-  right: 8%;
+	top: 33%;
+	right: 8%;
 }
 
 .timer {
-  position: relative;
+	position: relative;
 }
 
 .contacts {
-  margin-top: 123px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
+	margin-top: 123px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
 }
 
 .links {
-  display: flex;
-  gap: 10px;
+	display: flex;
+	gap: 10px;
 }
 
 .links-title {
-  color: #FAFAFA;
-  text-align: center;
-  font-feature-settings: 'liga' off;
-  font-family: "Chau Philomene One";
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 100%;
-  letter-spacing: -0.48px;
-  text-transform: uppercase;
+	color: #fafafa;
+	text-align: center;
+	font-feature-settings: "liga" off;
+	font-family: "Chau Philomene One";
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 100%;
+	letter-spacing: -0.48px;
+	text-transform: uppercase;
 }
 
-.container .FlipClock {
-  position: absolute;
-  top: 60%;
-  display: flex;
-  justify-content: center;
+.clock {
+	position: relative;
 }
 
-.container .FlipClock .flipUnitContainer {
-  display: block;
-  position: relative;
-  width: 115px;
-  height: 69px;
-  background-color: #333;
-  box-shadow: none;
+.clock .flipClock {
+	position: absolute;
+	top: 30%;
+	left: 5%;
 }
 
-.container .FlipClock .flipUnitContainer:nth-child(1),
-.container .FlipClock .flipUnitContainer:nth-child(3) {
-  background-color: #F8F6F7;
+.clock .flip-countdown-title {
+	color: white;
+	line-height: 50px;
+	font-family: "Chau Philomene One", sans-serif;
 }
 
-.container .FlipClock .flipUnitContainer:nth-child(5),
-.container .FlipClock .flipUnitContainer:nth-child(7) {
-  background-color: #1F1F1F;
+.clock .flip-countdown-card {
+	font-family: "Chau Philomene One", sans-serif;
+	font-size: 72px;
 }
 
-.container .FlipClock .flipUnitContainer:nth-child(1) .flipCard.unfold,
-.container .FlipClock .flipUnitContainer:nth-child(3) .flipCard.unfold {
-  background-color: #F8F6F7;
-  width: 115px;
-  height: 69px;
+.flip-countdown.size-medium .flip-countdown-piece {
+	margin: 0 10px;
 }
 
-.container .FlipClock .flipUnitContainer:nth-child(5) .flipCard.unfold,
-.container .FlipClock .flipUnitContainer:nth-child(7) .flipCard.unfold {
-  background-color: #1F1F1F;
-  width: 115px;
-  height: 69px;
+.shining {
+	animation: blink 15s infinite;
+	-webkit-animation: blink 15s infinite;
 }
 
-.container .FlipClock .flipUnitContainer:nth-child(1) .flipCard.unfold span,
-.container .FlipClock .flipUnitContainer:nth-child(3) .flipCard.unfold span {
-  color: #0D0D0D;
+svg circle,
+svg path {
+	animation: 3s linear 2s infinite alternate shadow;
+	-webkit-animation: 3s linear 2s infinite alternate shadow;
 }
 
-.container .ContainerTitle {
-  font-size: 20px !important;
-  top: 50px !important;
-  color: white;
+@-webkit-keyframes blink {
+	20%,
+	24%,
+	55% {
+		color: #111;
+		text-shadow: none;
+	}
+
+	0%,
+	19%,
+	21%,
+	23%,
+	25%,
+	54%,
+	56%,
+	100% {
+		/*     color: #fccaff;
+    text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+      0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092; */
+		text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500,
+			0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+		color: #fff6a9;
+	}
 }
 
+@keyframes blink {
+	20%,
+	24%,
+	55% {
+		color: #111;
+		text-shadow: none;
+	}
+
+	0%,
+	19%,
+	21%,
+	23%,
+	25%,
+	54%,
+	56%,
+	100% {
+		/*     color: #fccaff;
+    text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+      0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092; */
+		text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500,
+			0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+		color: #fff6a9;
+	}
+}
+
+@keyframes shadow {
+	0% {
+		filter: none;
+	}
+
+	100% {
+		filter: drop-shadow(1px 1px 2px yellow);
+	}
+}
